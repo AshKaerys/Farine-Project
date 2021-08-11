@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url('./pictures/background.png')fixed, center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    background: rgba(200, 198, 173, 0.5);
+    border: black 4px solid;
+    border-radius: 5px;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+}
+
+.fa-film{
+    font-size: 1.5em;
+    color: black;
+}
